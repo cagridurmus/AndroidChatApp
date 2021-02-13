@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/kullanici_profili"
+        android:src="@drawable/profil_resmi"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/kullanici_profil_ad"
+                    android:text="Kullanici Adi"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:gravity="start"
+                    android:layout_margin="5dp"/>
+
+                <ImageView
+                    android:id="@+id/kullanici_cevrimici"
+                    android:src="@drawable/ic_baseline_brightness_1_24"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5dp"
+                    android:visibility="invisible"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/kullanici_durumu"
+                    android:text="Kullanici Durum"
+                    android:textSize="16sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:gravity="start"
+                    android:layout_margin="5dp"/>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/talep_kabul_buton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="Kabul Et"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/background_light"
+                    android:background="@android:color/holo_green_dark"
+                    android:visibility="invisible"/>
+                <Button
+                    android:id="@+id/talep_iptal_buton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:text="Iptal Et"
+                    android:layout_marginStart="15dp"
+                    android:textAllCaps="false"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/background_light"
+                    android:background="@android:color/holo_red_dark"
+                    android:layout_marginLeft="15dp"
+                    android:visibility="invisible"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/mesaj_profil_resmi"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/profil_resmi"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/alici_mesaj_metni"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="4dp"
+        android:padding="8dp"
+        android:text="Alici mesajlar burada"
+        android:background="@drawable/alici_mesaj_layout"
+        android:layout_toEndOf="@id/mesaj_profil_resmi"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/mesaj_profil_resmi"
+        />
+
+    <ImageView
+        android:id="@+id/gonderen_tarih"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="18dp"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="4dp" />
+
+    <ImageView
+        android:id="@+id/alan_tarih"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="4dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="4dp" />
+
+    <TextView
+        android:id="@+id/gonderen_mesaj_metni"
+        android:padding="8dp"
+        android:text="Gonderen mesaj"
+        android:background="@drawable/gonderen_mesaj_layout"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="@+id/alici_mesaj_metni"
+        android:layout_toEndOf="@id/alici_mesaj_metni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@id/mesaj_profil_resmi"
+         />
+</RelativeLayout>

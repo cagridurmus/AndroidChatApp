@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WorkCall</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="arkadas_bul">Arkadas Bul</string>
+    <string name="ayarlar">Ayarlar</string>
+    <string name="cikis_yap">Cikis Yap</string>
+    <string name="e_mail_adresi">E-mail Adresi:</string>
+    <string name="sifre">Sifre:</string>
+    <string name="kayit_ol">Kayit Ol</string>
+    <string name="zaten_hesabiniz_var_mi">Zaten hesabiniz var mi?</string>
+    <string name="todo">TODO</string>
+    <string name="grup_olustur">Grup Olustur</string>
+
+
+</resources>
